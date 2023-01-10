@@ -1,0 +1,61 @@
+{
+    "filmes": [
+        {"nome_filme": "Avatar: O Caminho da Água", "genero": "Ficção científica/Ação", "id": 1, "lançamento": 2022}, 
+        {"nome_filme": "Pinóquio", "genero": "Drama/Fantasia", "id": 2, "lançamento": 2022}, 
+        {"nome_filme": "NOPE", "genero": "Terror/Ficção Científica", "id": 3, "lançamento": 2022}, 
+        {"nome_filme": "X", "genero":"Terror/Slash", "id": 4, "lançamento": 2022},
+        {"nome_filme": "Pearl", "genero":"Terror/Slash", "id": 5, "lançamento": 2022}, 
+        {"nome_filme": "Scream", "genero":"Terror/Slash", "id": 6, "lançamento": 1996}, 
+        {"nome_filme": "Scream 2", "genero":"Terror/Slash", "id": 7, "lançamento": 1997}, 
+        {"nome_filme": "Scream 3", "genero":"Terror/Slash", "id": 8, "lançamento": 2000}, 
+        {"nome_filme": "Scream 4", "genero":"Terror/Slash", "id": 9, "lançamento": 2011}, 
+        {"nome_filme": "Scream 5", "genero":"Terror/Slash", "id": 10, "lançamento": 2022},
+        {"nome_filme": "Child's Play", "genero":"Terror/Suspense", "id": 11, "lançamento": 1988},
+        {"nome_filme": "Child's Play 2", "genero":"Terror/Suspense", "id": 12, "lançamento": 1990},
+        {"nome_filme": "Child's Play 3", "genero":"Terror/Suspense", "id": 13, "lançamento": 1991},
+        {"nome_filme": "Bride of Chucky", "genero":"Terror/Suspense", "id": 14, "lançamento": 1998},
+        {"nome_filme": "Seed of Chucky", "genero":"Terror/Suspense", "id": 15, "lançamento": 2004},
+        {"nome_filme": "Curse of Chucky", "genero":"Terror/Suspense", "id": 16, "lançamento": 2013},
+        {"nome_filme": "Cult of Chucky", "genero":"Terror/Suspense", "id": 17, "lançamento": 2017},
+        {"nome_filme": "Alita: Anjo de Combate", "genero":"Ficção científica/Ação", "id": 18, "lançamento": 2019},
+        {"nome_filme": "One Piece: Red", "genero":"Aventura/Ação", "id": 19, "lançamento": 2022},
+        {"nome_filme": "Os Normais", "genero":"Comédia/Nacional", "id": 20, "lançamento": 2003},
+        {"nome_filme": "Lisbela e o Prisioneiro", "genero":"Comédia/Romance/Nacional", "id": 21, "lançamento": 2003},
+        {"nome_filme": "Zumbilândia", "genero":"Comédia/Terror", "id": 21, "lançamento": 2009},
+        {"nome_filme": "Zumbilândia: Atire Duas Vezes", "genero":"Comédia/Terror", "id": 22, "lançamento": 2019},
+        {"nome_filme": "Her", "genero":"Ficção científica/Comédia Dramática", "id": 23, "lançamento": 2019}
+    
+    ],
+    "bomboniere":[
+        {"produto": "pipoca_mini", "descrição": "Pipoca tamanho P, 150g", "id": 1010, "preço": "R$5.00"},
+        {"produto": "pipoca_media", "descrição": "Pipoca tamanho M, 300g", "id": 1011, "preço": "R$8.00"},
+        {"produto": "pipoca_grande", "descrição": "Pipoca tamanho G, 600g", "id": 1012, "preço": "R$12.00"},
+        {"produto": "coca-cola-lata", "descrição": "Coca-Cola lata, 350ml", "id": 2020, "preço": "R$ 5.00"},
+        {"produto": "coca-cola-600", "descrição": "Coca-Cola garrafa 600ml", "id": 2021, "preço": "R$ 6.00"},
+        {"produto": "coca-cola-2l", "descrição": "Coca-Cola 2l", "id": 2022, "preço": "R$ 12.00"},
+        {"produto": "guarana-antarctica-2l", "descrição": "Guaraná Antarctica 2l", "id": 2023, "preço": "R$ 10.00"},
+        {"produto": "cerveja-spaten", "descrição": "Cerveja Spaten Long Neck 355ml", "id": 2024, "preço": "R$ 12.00"},
+        {"produto": "agua_cgas", "descrição": "Água com gás 500ml", "id": 2025, "preço": "R$ 5.00"},
+        {"produto": "agua_sgas", "descrição": "Água sem gás 500ml", "id": 2026, "preço": "R$ 5.00"},
+        {"produto": "kit-kat", "descrição": "Chocolate KitKat 45g", "id": 3030, "preço": "R$ 7,00"},
+        {"produto": "m&m", "descrição": "Chocolate M&M 1kg", "id": 4040, "preço": "R$15,00"},
+        {"produto": "amendoim", "descrição": "Amendoim Dori, 90g", "id": 5050, "preço": "R$8,00"}
+    ],
+    "funcionarios":[
+        {"nome": "Chucky", "cargo": "gerente", "id": 1111, "salario": "R$:10.000"},
+        {"nome": "Freddy", "cargo": "projecionista", "id": 2222, "salario": "R$:9.000"},
+        {"nome": "Jason", "cargo": "atendente", "id": 3333, "salario": "R$:5.000"},
+        {"nome": "Michael", "cargo": "atendente", "id": 4444, "salario": "R$:5.000"},
+        {"nome": "Norman", "cargo": "vendedor", "id": 5555, "salario": "R$:6.000"},
+        {"nome": "Samara", "cargo": "vendedora", "id": 6666, "salario": "R$:6.000"}
+    ],
+
+    "salas":[
+        {"numero": "Sala 1", "qntd_cadeiras": 90, "id":9696, "sala_3d": "Sim"},
+        {"numero": "Sala 2", "qntd_cadeiras": 90, "id":9797, "sala_3d": "Não"},
+        {"numero": "Sala 3", "qntd_cadeiras": 90, "id":9898, "sala_3d": "Não"},
+        {"numero": "Sala 4", "qntd_cadeiras": 90, "id":9999, "sala_3d": "Sim"}
+
+
+    ]
+    }
